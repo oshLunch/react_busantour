@@ -20,7 +20,7 @@ const TourList = () => {
       /* 에러가 있다면 catch값으로 넘어감 */
       try {
         const response = await axios.get(
-          `http://apis.data.go.kr/6260000/AttractionService/getAttractionKr?serviceKey=${key}&numOfRows=20&pageNo=1&resultType=json`);
+          `https://apis.data.go.kr/6260000/AttractionService/getAttractionKr?serviceKey=${key}&numOfRows=20&pageNo=1&resultType=json`);
         setTour(response.data.getAttractionKr.item);
       } catch (error) {
         console.log(error);
