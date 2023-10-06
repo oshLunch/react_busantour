@@ -39,7 +39,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  border-bottom : 1px solid rgb(233, 235, 237);
+  border-bottom : 1px solid #080808;
 }
 
 header h1 {
